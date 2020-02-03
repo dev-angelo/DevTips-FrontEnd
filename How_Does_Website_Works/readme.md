@@ -64,7 +64,7 @@ request headers : 페치될 리소스나 클라이언트 자체에 대한 자세
 response headers : 위치 또는 서버 자체에 대한 정보(이름, 버전 등)와 같이 응답에 대한 부가적인 정보를 갖는 헤더
 
 ## 화면에 보여지기 시작하는 시간은 언제인가?
-<img src="https://user-images.githubusercontent.com/58318174/73631533-9b25a700-469c-11ea-9f8e-96deaa9b46bf.png">
+<img src="https://user-images.githubusercontent.com/58318174/73636902-4ee16380-46aa-11ea-99d8-1f1d12644558.png">
 * DOM 트리 구축(Constructing the DOM Tree)</br>
 * CSSOM 트리 구축(Constructing the CSSOM Tree)</br>
 * JavaScript 실행(Running JavaScript)</br>
