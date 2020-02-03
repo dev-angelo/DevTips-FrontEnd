@@ -96,5 +96,5 @@ DOMContentLoaded, load (https://yngmanie.space/posts/dom-event)
 참조> 
 HTML Critical rendering path의 이해 ("https://blog.asamaru.net/2017/05/04/understanding-the-critical-rendering-path/")
 
-
+참조 test
 
