@@ -85,6 +85,8 @@ response headers : 위치 또는 서버 자체에 대한 정보(이름, 버전 �
 * 레이아웃 생성(Generating the Layout)</br>
 * 페인팅(Painting)</br>
 
+<img src="https://user-images.githubusercontent.com/58318174/73726239-6ab03c80-4772-11ea-9d7b-8423918d95dc.png">
+
 ## 6. DOMContentLoaded라는 이벤트는 언제 발생하는가? load랑은 어떤 차이점이 있는가?
 
 ### 6-1. DOMContentLoaded 이벤트
