@@ -91,7 +91,7 @@ Page: DOMContentLoaded, load, beforeunload, unload (https://javascript.info/onlo
 DOMContentLoaded, load (https://yngmanie.space/posts/dom-event)
 
 
-## HTML 파일 응답 받은 이후부터, 모니터화면에 보이기까지의 과정.
+## 7. HTML 파일 응답 받은 이후부터, 모니터화면에 보이기까지의 과정.
 * Send Request - index.html에 대한 GET 요청 전송
 * Parse HTML and Send Request - HTML 및 DOM 구문 분석을 시작. style.css 및 main.js에 대한 GET 요청
 * Parse Stylesheet - CSSOM이 style.css 용으로 생성
@@ -101,3 +101,8 @@ DOMContentLoaded, load (https://yngmanie.space/posts/dom-event)
 
 참조> 
 HTML Critical rendering path의 이해 ("https://blog.asamaru.net/2017/05/04/understanding-the-critical-rendering-path/")
+<hr>
+## Question
+### 1. HTML 이 파싱되기 전 GPU 가 사용되고 있는 이유?
+<img src="https://user-images.githubusercontent.com/58318174/73703544-919b4e00-4733-11ea-8800-83ac66aecc72.png">
+
