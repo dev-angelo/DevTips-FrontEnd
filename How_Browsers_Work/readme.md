@@ -71,10 +71,10 @@ response headers : 위치 또는 서버 자체에 대한 정보(이름, 버전 �
 * First Contentful Paint: 텍스트, 이미지, 흰색이 아닌 캔버스 또는 SVG (Scalable Vector Graphics)를 포함하여 DOM (Document Object Model)의 컨텐츠를 페이지에 처음 렌더링 하는 지점.
 <img src="https://user-images.githubusercontent.com/58318174/73703634-f060c780-4733-11ea-8a3a-03c1b516d6d9.png">
 
-* First Paint, FIrst Contenful paint 의 예시
-<img src="https://user-images.githubusercontent.com/58318174/73703011-ea69e700-4731-11ea-8b3d-247923f4b1d5.png">
+* First Paint, First Contenful paint, First Meaningful Paint 의 예시
+<img src="https://user-images.githubusercontent.com/58318174/73703937-e2f80d00-4734-11ea-8db7-609c430ecf10.png">
 
-참조> The case for perceived performance metrics (https://blog.newrelic.com/product-news/browser-first-paint-first-contentful-paint/)
+참조> User-centric Performance Metrics | Web Fundamentals (https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics)
 
 ### Flow
 * DOM 트리 구축(Constructing the DOM Tree)</br>
