@@ -43,7 +43,7 @@ HTML DOM 요소가 화면에 보일때 원하는 디자인이 적용된 형태�
 #### 2-4. css가 가운데에 embed 형태로 위치한 이유
 
 
-## 화면을 표시하기 위해 어떤 파일들이 다운로드 되는가?
+## 3. 화면을 표시하기 위해 어떤 파일들이 다운로드 되는가?
 <img src="https://user-images.githubusercontent.com/58318174/73629486-a4137a00-4696-11ea-8bcd-b4af1a4bce88.png">
 1. Image Files (*.png, *.gif etc..) </br>
 2. JS Files (라이브러리 포함) </br>
@@ -54,20 +54,22 @@ HTML DOM 요소가 화면에 보일때 원하는 디자인이 적용된 형태�
 다운로드 된 파일 타입을 Network 탭에서 Content-Type 으로 확인 가능.
 <img src="https://user-images.githubusercontent.com/58318174/73630052-55ff7600-4698-11ea-9abd-b63f57b38818.png">
 
-## 특정 자원의 Request Headers 와 Response Headers의 내용을 분석.(네트워크 탭 활용)
-### Request
+## 4. 특정 자원의 Request Headers 와 Response Headers의 내용을 분석.(네트워크 탭 활용)
+### 4-1. Request
 <img src="https://user-images.githubusercontent.com/58318174/73630309-07061080-4699-11ea-97d1-dcdab1b99bb0.png"></br>
 request headers : 페치될 리소스나 클라이언트 자체에 대한 자세한 정보를 포함하는 헤더.
 
-### Response
+### 4-2. Response
 <img src="https://user-images.githubusercontent.com/58318174/73630213-cc03dd00-4698-11ea-958d-0fe8a4155e84.png">
 response headers : 위치 또는 서버 자체에 대한 정보(이름, 버전 등)와 같이 응답에 대한 부가적인 정보를 갖는 헤더
 
-## 화면에 보여지기 시작하는 시간은 언제인가?
-First Paint: 첫 번째 페인트는 사용자가 웹 페이지를 탐색 한 후 첫 번째 픽셀이 화면에서 렌더링되는 지점.
+## 5. 화면에 보여지기 시작하는 시간은 언제인가?
+* First Paint: 첫 번째 페인트는 사용자가 웹 페이지를 탐색 한 후 첫 번째 픽셀이 화면에서 렌더링되는 지점.
 <img src="https://user-images.githubusercontent.com/58318174/73636902-4ee16380-46aa-11ea-99d8-1f1d12644558.png">
-First Contentful Paint: 텍스트, 이미지, 흰색이 아닌 캔버스 또는 SVG (Scalable Vector Graphics)를 포함하여 DOM (Document Object Model)의 컨텐츠를 페이지에 처음 렌더링 하는 지점.
+* First Contentful Paint: 텍스트, 이미지, 흰색이 아닌 캔버스 또는 SVG (Scalable Vector Graphics)를 포함하여 DOM (Document Object Model)의 컨텐츠를 페이지에 처음 렌더링 하는 지점.
 <img src="https://user-images.githubusercontent.com/58318174/73703011-ea69e700-4731-11ea-8b3d-247923f4b1d5.png">
+
+### Flow
 * DOM 트리 구축(Constructing the DOM Tree)</br>
 * CSSOM 트리 구축(Constructing the CSSOM Tree)</br>
 * JavaScript 실행(Running JavaScript)</br>
@@ -75,12 +77,12 @@ First Contentful Paint: 텍스트, 이미지, 흰색이 아닌 캔버스 또는 
 * 레이아웃 생성(Generating the Layout)</br>
 * 페인팅(Painting)</br>
 
-## DOMContentLoaded라는 이벤트는 언제 발생하는가? load랑은 어떤 차이점이 있는가?
+## 6. DOMContentLoaded라는 이벤트는 언제 발생하는가? load랑은 어떤 차이점이 있는가?
 
-### DOMContentLoaded 이벤트
-DOMContentLoaded 이벤트는 초기 HTML 도큐먼트가 로드되고 파스되면 스타일시트, 이미지 및 다른 프레임이 로딩되기전에 실행됩니다. 이벤트의 진짜 타겟은 로드가 완료된 이벤트 입니다. 이벤트는 Window 인터페이스에서 이벤트를 수신하여 캡쳐하고 버블링할 수 있습니다.</br>
+### 6-1. DOMContentLoaded 이벤트
+DOMContentLoaded 이벤트는 초기 HTML 도큐먼트가 로드되고 파스되면 스타일시트, 이미지 및 다른 프레임이 로딩되기전에 실행됩니다. 이벤트의 진짜 타겟은 로드가 완료된 이벤트 입니다. 이벤트는 Window 인터페이스에서 이벤트를 수신하여 캡쳐하고 버블링할 수 있습니다.
 
-### load 이벤트
+### 6-2. load 이벤트
 load 이벤트는 스타일시트 이미지와 같이 의존성이 있는 리소스가 준비되면 실행됩니다. 이것은 DOMContentLoaded와 정반대입니다.
 
 참조> 
@@ -98,6 +100,3 @@ DOMContentLoaded, load (https://yngmanie.space/posts/dom-event)
 
 참조> 
 HTML Critical rendering path의 이해 ("https://blog.asamaru.net/2017/05/04/understanding-the-critical-rendering-path/")
-
-참조 test
-
