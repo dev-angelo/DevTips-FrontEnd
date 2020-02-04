@@ -111,8 +111,10 @@ HTML Critical rendering path의 이해 ("https://blog.asamaru.net/2017/05/04/und
 <hr>
 
 ## 8. Question
+
 ### 1. HTML 이 파싱되기 전 GPU 가 사용되고 있는 이유?
 <img src="https://user-images.githubusercontent.com/58318174/73703544-919b4e00-4733-11ea-8800-83ac66aecc72.png">
+
 ### 2. Rasterizer Thread 가 하는 일은?
 -> 자답: 브라우저는 문서의 구조와 각 요소의 스타일, 요소의 기하학적 속성, 페인트 순서를 알고 있다. 브라우저는 이제 웹 페이지를 어떻게 그릴까? 이 정보를 화면의 픽셀로 변환하는 작업을 래스터화(rasterizing)라고 한다.
 
