@@ -107,8 +107,10 @@ DOMContentLoaded, load (https://yngmanie.space/posts/dom-event)
 
 참조> 
 HTML Critical rendering path의 이해 ("https://blog.asamaru.net/2017/05/04/understanding-the-critical-rendering-path/")
+
 <hr>
-## Question
+
+## 8. Question
 ### 1. HTML 이 파싱되기 전 GPU 가 사용되고 있는 이유?
 <img src="https://user-images.githubusercontent.com/58318174/73703544-919b4e00-4733-11ea-8800-83ac66aecc72.png">
 ### 2. Rasterizer Thread 가 하는 일은?
