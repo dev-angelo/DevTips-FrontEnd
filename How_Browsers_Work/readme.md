@@ -64,7 +64,10 @@ request headers : 페치될 리소스나 클라이언트 자체에 대한 자세
 response headers : 위치 또는 서버 자체에 대한 정보(이름, 버전 등)와 같이 응답에 대한 부가적인 정보를 갖는 헤더
 
 ## 화면에 보여지기 시작하는 시간은 언제인가?
+First Paint: 첫 번째 페인트는 사용자가 웹 페이지를 탐색 한 후 첫 번째 픽셀이 화면에서 렌더링되는 지점.
 <img src="https://user-images.githubusercontent.com/58318174/73636902-4ee16380-46aa-11ea-99d8-1f1d12644558.png">
+First Contentful Paint: 텍스트, 이미지, 흰색이 아닌 캔버스 또는 SVG (Scalable Vector Graphics)를 포함하여 DOM (Document Object Model)의 컨텐츠를 페이지에 처음 렌더링 하는 지점.
+<img src="https://user-images.githubusercontent.com/58318174/73703011-ea69e700-4731-11ea-8b3d-247923f4b1d5.png">
 * DOM 트리 구축(Constructing the DOM Tree)</br>
 * CSSOM 트리 구축(Constructing the CSSOM Tree)</br>
 * JavaScript 실행(Running JavaScript)</br>
