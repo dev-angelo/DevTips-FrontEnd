@@ -50,8 +50,8 @@ HTML DOM 요소가 화면에 보일때 원하는 디자인이 적용된 형태�
 3. Font Files (woff) </br>
 4. 스타일 시트 </br>
 5. text/html </br>
-
-다운로드 된 파일 타입을 Network 탭에서 Content-Type 으로 확인 가능.
+</br>
+* 다운로드 된 파일 타입을 Network 탭에서 Content-Type 으로 확인 가능.
 <img src="https://user-images.githubusercontent.com/58318174/73630052-55ff7600-4698-11ea-9abd-b63f57b38818.png">
 
 ## 4. 특정 자원의 Request Headers 와 Response Headers의 내용을 분석.(네트워크 탭 활용)
