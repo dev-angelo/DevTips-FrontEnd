@@ -74,6 +74,8 @@ response headers : 위치 또는 서버 자체에 대한 정보(이름, 버전 �
 * First Paint, FIrst Contenful paint 의 예시
 <img src="https://user-images.githubusercontent.com/58318174/73703011-ea69e700-4731-11ea-8b3d-247923f4b1d5.png">
 
+참조> The case for perceived performance metrics (https://blog.newrelic.com/product-news/browser-first-paint-first-contentful-paint/)
+
 ### Flow
 * DOM 트리 구축(Constructing the DOM Tree)</br>
 * CSSOM 트리 구축(Constructing the CSSOM Tree)</br>
