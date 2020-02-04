@@ -46,6 +46,7 @@ HTML DOM 요소가 화면에 보일때 원하는 디자인이 적용된 형태�
 
 ## 3. 화면을 표시하기 위해 어떤 파일들이 다운로드 되는가?
 <img src="https://user-images.githubusercontent.com/58318174/73629486-a4137a00-4696-11ea-8bcd-b4af1a4bce88.png">
+
 1. Image Files (*.png, *.gif etc..) </br>
 2. JS Files (라이브러리 포함) </br>
 3. Font Files (woff) </br>
