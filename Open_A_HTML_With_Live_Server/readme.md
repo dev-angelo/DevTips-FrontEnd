@@ -10,7 +10,7 @@ Live Server 는 Live Server 를 사용하여 열린 html 에서 수정이 발생
 ### 2. 사용 방법
 ![start](https://github.com/dev-angelo/DevTips-FrontEnd/blob/master/Open_A_HTML_With_Live_Server/images/start.png)
 * 열고자 하는 html 파일을 마우스 우측 클릭 후 'Open with Live Server' 클릭합니다.
-* 클릭하면 운영체제에 설정 된 기본 브라우저로 열됩니다.</br>
+* 클릭 후 html 파일은 운영체제에 설정 된 기본 브라우저로 열립니다.</br>
 </br>
 
 ![code_result_1](https://github.com/dev-angelo/DevTips-FrontEnd/blob/master/Open_A_HTML_With_Live_Server/images/code_result_1.png)
