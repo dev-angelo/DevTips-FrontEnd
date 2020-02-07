@@ -25,6 +25,6 @@ After>
 <h1>Hello Live Server</h1>
 ```
 
-![code_result_2](https://github.com/dev-angelo/DevTips-FrontEnd/blob/master/Open_A_HTML_With_Live_Server/images/code_result_2.png)
+![code_result_2](https://github.com/dev-angelo/DevTips-FrontEnd/blob/master/Open-A-HTML-With-Live-Server/images/code_result_2.png)
 * 코드 수정 후 저장을 하면 자동으로 refresh 되는것을 확인하였습니다.
 
