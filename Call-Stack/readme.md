@@ -54,3 +54,7 @@ firstFunction();
 * 콜 스택의 특성은 JavaScript가 단일 스레드이며 한 번에 하나의 실행 컨텍스트 만 실행할 수 있다는 사실을 반영합니다.
 * 함수를 실행하는 동안 엔진이 동시에 다른 컨텍스트를 실행할 수 없음을 의미합니다. 
 * 함수를 호출 스택에 밀어넣을 때마다 능동 실행 컨텍스트가 되고 (반환 문구와 함께) 명시적으로 또는 암묵적으로 (모든 명령이 실행되었을 때) 돌아올 때까지 그 기능을 호출한 함수에서 제어 흐름을 빼앗아 간다는 것을 의미합니다.
+
+> 참조:
+* Understanding Execution Context and Execution Stack in Javascript (https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)
+* The JavaScript Execution Context, Call-stack & Event Loop (https://dev.to/thebabscraig/the-javascript-execution-context-call-stack-event-loop-1if1)
