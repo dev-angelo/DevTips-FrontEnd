@@ -9,20 +9,27 @@ JavaScript 에는 세가지 타입의 실행 컨텍스트가 존재합니다.
 * Global Execution Context
 * Functional Execution Context
 * Eval Function Execution Context
+
 ### Global Execution Context
 * 기본 실행 컨텍스트 입니다.
-* 함수 안에 존재하지 않는 코드들은 Global Execution Context 
-* 두 가지 작업을 수행하는데,
-  * 1\. 전역 객체를 생성하고
-    * 브라우저의 경우 window 객체
-    * node.js 의 경우 global 객체
-  * 2\. 1 에서 만들어진 객체를 this 객체와 동일하게 설정합니다.
+* 함수 안에 존재하지 않는 코드들은 Global Execution Context 에 존재하게 됩니다.
+* JavaScript 엔진은 스크립트를 처음 발견하면 전역 실행 컨텍스트를 생성하여 현재 실행 스택으로 푸시합니다. 
+* 전역 실행 컨텍스트를 생성하는 과정은 아래와 같습니다.
+  * 1\. 브라우저의 경우 window 객체를, node.js 의 경우 global 객체를 생성합니다.
+  * 2\. 앞서 만들어진 객체를 this 객체와 동일하게 설정합니다.
+  * 3\. 변수 및 함수 참조를 저장하기위한 메모리 힙을 설정합니다.
+  * 4\. 함수 선언을 위의 메모리 힙에 저장하고 정의되지 않은 값으로 값을 지정하여 컨텍스트 내의 모든 변수를 저장하십시오.
 * 프로그램에는 하나의 전역 실행 컨텍스트 만있을 수 있습니다.
+
 ### Functional Execution Context
 * 함수가 호출 될 때 그때마다 호출 된 함수에 대한 새로운 실행 컨텍스트가 생성됩니다.
 * 각 함수에는 자체 실행 컨텍스트가 있지만 함수를 호출하거나 호출 할 때 생성됩니다.
 * 실행 컨텍스트는 갯수 제한이 존재하지 않습니다.
 * 새로운 실행 컨텍스트가 생성될 때마다 정의된 순서로 단계를 거칩니다.
+
+### Eval Function Execution Context
+* eval 함수 내에서 실행 된 코드도 자체 실행 컨텍스트를 가져 오지만 일반적으로 JavaScript 개발자는 eval을 사용하지 않으므로 여기서는 설명하지 않겠습니다.
+
 
 > 참조:
 * Understanding Execution Context and Execution Stack in Javascript (https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)
