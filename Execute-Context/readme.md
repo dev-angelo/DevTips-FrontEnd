@@ -1,9 +1,11 @@
 # Execute Context
 ## Introduction
 이 문서는 JavaScript 의 Execute Context (실행 문맥) 에 대한 내용을 다룬 포스트입니다.
+
 ## 실행 컨텍스트란?
 * 실행 컨텍스트는 Javascript 코드가 평가되고 실행되는 환경의 추상 개념입니다. 
-* 코드가 JavaScript로 실행될 때마다 실행 컨텍스트 내에서 실행됩니다.
+* JavaScript 의 코드들은 실행될 때 실행 컨텍스트 내에서 동작합니다.
+
 ## 실행 컨텍스트의 타입
 JavaScript 에는 세가지 타입의 실행 컨텍스트가 존재합니다.
 * Global Execution Context
