@@ -29,6 +29,9 @@ JavaScript 에는 세가지 타입의 실행 컨텍스트가 존재합니다.
 ### Eval Function Execution Context
 * eval 함수 내에서 실행 된 코드도 자체 실행 컨텍스트를 가져 오지만 일반적으로 JavaScript 개발자는 eval을 사용하지 않으므로 여기서는 설명하지 않겠습니다.
 
+여러 개의 중첩 함수 호출 또는 조건이있는 시나리오에서 이러한 모든 실행 컨텍스트를 어떠한 방법으로 추적하고<br>
+어떠한 것이 완전히 실행되었는지 알 수 있는 방법에 대해 Call Stack 에서 소개하고자 합니다.<br>
+-> [Call Stack](https://github.com/dev-angelo/DevTips-FrontEnd/tree/master/Call-Stack)
 
 > 참조:
 * Understanding Execution Context and Execution Stack in Javascript (https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)
