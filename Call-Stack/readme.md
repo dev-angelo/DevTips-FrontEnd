@@ -55,8 +55,8 @@ firstFunction();
 * 함수를 실행하는 동안 엔진이 동시에 다른 컨텍스트를 실행할 수 없음을 의미합니다. 
 * 함수를 호출 스택에 밀어넣을 때마다 능동 실행 컨텍스트가 되고 (반환 문구와 함께) 명시적으로 또는 암묵적으로 (모든 명령이 실행되었을 때) 돌아올 때까지 그 기능을 호출한 함수에서 제어 흐름을 빼앗아 간다는 것을 의미합니다.
 
-한번에 한가지 일을 하는 콜 스택의 특성하에서 비동기 자바 스크립트를 구현 할 수 있는 이유는<br>
-Event Loop 를 통해 알아보도록 하겠습니다.<br>
+한번에 한가지 일을 하는 JavaScript 의 스택의 안에서 비동기 프로그래밍을 할 수 있는 이유를<br>
+Event Table & Event Queue, Event Loop 를 통해 알아보도록 하겠습니다.<br>
 -> [Event-Loop](https://github.com/dev-angelo/DevTips-FrontEnd/tree/master/Event-Loop)
 
 > 참조:
