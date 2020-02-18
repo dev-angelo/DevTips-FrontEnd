@@ -57,7 +57,7 @@ firstFunction();
 
 한번에 한가지 일을 하는 JavaScript 의 스택의 안에서 비동기 프로그래밍을 할 수 있는 이유를<br>
 Event Table & Event Queue, Event Loop 를 통해 알아보도록 하겠습니다.<br>
--> [Event-Loop](https://github.com/dev-angelo/DevTips-FrontEnd/tree/master/Event-Loop)
+-> 1. [Event Table & Event Queue](https://github.com/dev-angelo/DevTips-FrontEnd/tree/master/EventTable-EventQueue), 2. [Event-Loop](https://github.com/dev-angelo/DevTips-FrontEnd/tree/master/Event-Loop)
 
 > 참조:
 * Understanding Execution Context and Execution Stack in Javascript (https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)
