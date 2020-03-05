@@ -109,29 +109,29 @@ var result = add(x, y);
 
 JavaScript 엔진은 스크립트를 처음 발견하면 전역 실행 컨텍스트 (Global execution context) 를 생성하여 현재 실행 스택으로 푸시합니다.
 
-![](https://github.com/dev-angelo/DevTips-FrontEnd/blob/master/Execution-Context/images/call_stack_1.png)
+![](https://user-images.githubusercontent.com/58318174/75947521-005ef900-5ee4-11ea-878c-e0154ff0e8fc.png)
 
 test.js 파일을 발견 했을 때 생성되는 전역 실행 컨텍스트의 안은 아래 이미지와 같습니다.
 
-![](https://github.com/dev-angelo/DevTips-FrontEnd/blob/master/Execution-Context/images/global_execution_context_1.png)
+![](https://user-images.githubusercontent.com/58318174/75947525-01902600-5ee4-11ea-8853-a4bc0c9d5b8d.png)
 
 ※ y 값이 before initialize 인 이유는 hoisting 과 관계가 있는 내용입니다. [Hoisting]() 을 참조 부탁 드립니다.
 
 이후 코드를 한줄 한줄 수행해 나가며 add function 이 호출 되었을 때에는 또 다른 샐행 컨텍스트를 만들게 됩니다.
 
-![](https://github.com/dev-angelo/DevTips-FrontEnd/blob/master/Execution-Context/images/call_stack_2.png)
+![](https://user-images.githubusercontent.com/58318174/75947523-00f78f80-5ee4-11ea-9b37-a7ee88ca0c33.png)
 
-![](https://github.com/dev-angelo/DevTips-FrontEnd/blob/master/Execution-Context/images/global_execution_context_2.png)
+![](https://user-images.githubusercontent.com/58318174/75947526-01902600-5ee4-11ea-9018-4396ea980fa1.png)
 
 이후 연산을 통해 20 이란 결과를 반환하고 add 함수 내부에서는 더 이상 호출 할 함수가 없으므로 life cycle 이 종료됩니다.
 
-![](https://github.com/dev-angelo/DevTips-FrontEnd/blob/master/Execution-Context/images/global_execution_context_3.png)
+![](https://user-images.githubusercontent.com/58318174/75947527-0228bc80-5ee4-11ea-9776-e882e3254173.png)
 
-![](https://github.com/dev-angelo/DevTips-FrontEnd/blob/master/Execution-Context/images/call_stack_1.png)
+![](https://user-images.githubusercontent.com/58318174/75947521-005ef900-5ee4-11ea-878c-e0154ff0e8fc.png)
 
 그 후 test.js 코드에서 전역 실행 컨텍스트의 마지막 모습은 아래와 같습니다.
 
-![](https://github.com/dev-angelo/DevTips-FrontEnd/blob/master/Execution-Context/images/global_execution_context_4.png)
+![](https://user-images.githubusercontent.com/58318174/75947528-0228bc80-5ee4-11ea-8e0b-a666e76fd399.png)
 
 여러 개의 중첩 함수 호출 또는 조건이있는 시나리오에서 이러한 모든 실행 컨텍스트를 어떠한 방법으로 추적하고  
 어떠한 것이 완전히 실행되었는지 알 수 있는 방법에 대해서는 Call Stack 에서 소개하고자 합니다.  
