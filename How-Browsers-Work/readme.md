@@ -7,16 +7,16 @@
 
 ## 2-1. js 파일의 의 위치
 * 상단에 있는 js(라이브러리):
-<img src="https://user-images.githubusercontent.com/58318174/73628294-31ed6600-4693-11ea-9a87-81f5897c02a5.png">
+![image](https://user-images.githubusercontent.com/58318174/92317280-f86e4600-f039-11ea-971c-3910d264e2a0.png)
 
 * 상단에 있는 js의 내용 (라이브러리):
-<img src="https://user-images.githubusercontent.com/58318174/73628293-31ed6600-4693-11ea-9dc0-96854eff34be.png">
+![image](https://user-images.githubusercontent.com/58318174/92317282-fc9a6380-f039-11ea-9189-30ece618f273.png)
 
 * 하단에 있는 js(site event처리[hover, click, scroll, 셀렉트 박스]):
-<img src="https://user-images.githubusercontent.com/58318174/73628292-3154cf80-4693-11ea-9e4e-43302b4126a0.png">
+![image](https://user-images.githubusercontent.com/58318174/92317284-ff955400-f039-11ea-96bf-43376468ab08.png)
 
 * 하단에 있는 js의 내용:
-<img src="https://user-images.githubusercontent.com/58318174/73628295-31ed6600-4693-11ea-9489-3edd77a2733a.png">
+![image](https://user-images.githubusercontent.com/58318174/92317285-01f7ae00-f03a-11ea-8578-e7280760ea4a.png)
 
 #### 최상단에 js 가 위치 한 이유
 * JQuery CDN 및 자체적으로 개발 한 라이브러리를 사용하기 위해서.
@@ -31,11 +31,11 @@
 
 ## 2-2. css 의 위치
 * css 가 위치한 곳 (상단):
-<img src="https://user-images.githubusercontent.com/58318174/73628610-0cad2780-4694-11ea-8287-9f261534e038.png">
+![image](https://user-images.githubusercontent.com/58318174/92317289-058b3500-f03a-11ea-81b1-43d3d37f5e46.png)
 
 * css 가 위치한 곳 (가운데) -> 반응형 사이트 css 적용 :
-<img src="https://user-images.githubusercontent.com/58318174/73628820-aaa0f200-4694-11ea-92e6-1475fe1af830.png">
-<img src="https://user-images.githubusercontent.com/58318174/73629106-77ab2e00-4695-11ea-98bc-6c735318fefe.png">
+![image](https://user-images.githubusercontent.com/58318174/92317292-120f8d80-f03a-11ea-8377-05e698e9af37.png)
+![image](https://user-images.githubusercontent.com/58318174/92317295-1471e780-f03a-11ea-87af-a39317b8c0a3.png)
 
 #### 2-3. css가 최상단에 위치한 이유
 HTML DOM 요소가 화면에 보일때 원하는 디자인이 적용된 형태로 나타나야 되기 때문입니다.
@@ -44,7 +44,7 @@ HTML DOM 요소가 화면에 보일때 원하는 디자인이 적용된 형태�
 
 
 # 3. 화면을 표시하기 위해 어떤 파일들이 다운로드 되는가?
-<img src="https://user-images.githubusercontent.com/58318174/73629486-a4137a00-4696-11ea-8bcd-b4af1a4bce88.png">
+![image](https://user-images.githubusercontent.com/58318174/92317299-176cd800-f03a-11ea-9552-67c913da6e88.png)
 
 1. Image Files (*.png, *.gif etc..) </br>
 2. JS Files (라이브러리 포함) </br>
@@ -53,26 +53,27 @@ HTML DOM 요소가 화면에 보일때 원하는 디자인이 적용된 형태�
 5. text/html </br>
 </br>
 * 다운로드 된 파일 타입을 Network 탭에서 Content-Type 으로 확인 가능합니다.
-<img src="https://user-images.githubusercontent.com/58318174/73630052-55ff7600-4698-11ea-9abd-b63f57b38818.png">
+![image](https://user-images.githubusercontent.com/58318174/92317301-19cf3200-f03a-11ea-91fc-b655d0d89b73.png)
 
 # 4. 특정 자원의 Request Headers 와 Response Headers의 내용을 분석.(네트워크 탭 활용)
 ## 4-1. Request
-<img src="https://user-images.githubusercontent.com/58318174/73630309-07061080-4699-11ea-97d1-dcdab1b99bb0.png"></br>
+![image](https://user-images.githubusercontent.com/58318174/92317303-1dfb4f80-f03a-11ea-9a4c-5b9779ce07a2.png)
 request headers : 페치될 리소스나 클라이언트 자체에 대한 자세한 정보를 포함하는 헤더입니다.
 
 ## 4-2. Response
-<img src="https://user-images.githubusercontent.com/58318174/73630213-cc03dd00-4698-11ea-958d-0fe8a4155e84.png">
+![image](https://user-images.githubusercontent.com/58318174/92317306-205da980-f03a-11ea-8782-362852d9cf79.png)
+
 response headers : 위치 또는 서버 자체에 대한 정보(이름, 버전 등)와 같이 응답에 대한 부가적인 정보를 갖는 헤더입니다.
 
 # 5. 화면에 보여지기 시작하는 시간은 언제인가?
 * First Paint: 첫 번째 페인트는 사용자가 웹 페이지를 탐색 한 후 첫 번째 픽셀이 화면에서 렌더링되는 지점입니다.
-<img src="https://user-images.githubusercontent.com/58318174/73636902-4ee16380-46aa-11ea-99d8-1f1d12644558.png">
+![image](https://user-images.githubusercontent.com/58318174/92317307-23f13080-f03a-11ea-8e3a-08a3ad36cb41.png)
 
 * First Contentful Paint: 텍스트, 이미지, 흰색이 아닌 캔버스 또는 SVG (Scalable Vector Graphics)를 포함하여 DOM (Document Object Model)의 컨텐츠를 페이지에 처음 렌더링 하는 지점입니다.
-<img src="https://user-images.githubusercontent.com/58318174/73703634-f060c780-4733-11ea-8a3a-03c1b516d6d9.png">
+![image](https://user-images.githubusercontent.com/58318174/92317308-26ec2100-f03a-11ea-88c5-9442d463093a.png)
 
 * First Paint, First Contenful paint, First Meaningful Paint 의 예시
-<img src="https://user-images.githubusercontent.com/58318174/73703937-e2f80d00-4734-11ea-8db7-609c430ecf10.png">
+![image](https://user-images.githubusercontent.com/58318174/92317311-29e71180-f03a-11ea-80e1-0ff701264824.png)
 
 참조> User-centric Performance Metrics | Web Fundamentals (https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics)
 
@@ -84,7 +85,7 @@ response headers : 위치 또는 서버 자체에 대한 정보(이름, 버전 �
 * 레이아웃 생성(Generating the Layout)</br>
 * 페인팅(Painting)</br>
 
-<img src="https://user-images.githubusercontent.com/58318174/73726239-6ab03c80-4772-11ea-9d7b-8423918d95dc.png">
+![image](https://user-images.githubusercontent.com/58318174/92317312-2d7a9880-f03a-11ea-9090-3a11939e41b1.png)
 
 # 6. DOMContentLoaded라는 이벤트는 언제 발생하는가? load랑은 어떤 차이점이 있는가?
 
@@ -110,12 +111,11 @@ DOMContentLoaded, load (https://yngmanie.space/posts/dom-event)
 참조> 
 HTML Critical rendering path의 이해 ("https://blog.asamaru.net/2017/05/04/understanding-the-critical-rendering-path/")
 
-<hr>
-
 # 8. Etc
 
 ## 8-1. HTML 이 파싱되기 전 GPU 가 사용되고 있는 이유?
-<img src="https://user-images.githubusercontent.com/58318174/73703544-919b4e00-4733-11ea-8800-83ac66aecc72.png">
+![image](https://user-images.githubusercontent.com/58318174/92317313-30758900-f03a-11ea-828d-28d10d270ec9.png)
+
 
 ## 8-2. Rasterizer Thread 가 하는 일은?
 브라우저는 문서의 구조와 각 요소의 스타일, 요소의 기하학적 속성, 페인트 순서를 알고 있습니다. 각 정보들을 화면의 픽셀로 변환하는 작업을 래스터화(rasterizing)라고 합니다.
