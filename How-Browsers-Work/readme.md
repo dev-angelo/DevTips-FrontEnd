@@ -6,16 +6,16 @@
 # 2. js, css 파일들은 어디에 위치했는가? 왜 그곳에 위치되었을까?
 
 ## 2-1. js 파일의 의 위치
-* 상단에 있는 js(라이브러리):
+* 상단에 있는 js(라이브러리):  
 ![image](https://user-images.githubusercontent.com/58318174/92317280-f86e4600-f039-11ea-971c-3910d264e2a0.png)
 
-* 상단에 있는 js의 내용 (라이브러리):
+* 상단에 있는 js의 내용 (라이브러리):  
 ![image](https://user-images.githubusercontent.com/58318174/92317282-fc9a6380-f039-11ea-9189-30ece618f273.png)
 
-* 하단에 있는 js(site event처리[hover, click, scroll, 셀렉트 박스]):
+* 하단에 있는 js(site event처리[hover, click, scroll, 셀렉트 박스]):  
 ![image](https://user-images.githubusercontent.com/58318174/92317284-ff955400-f039-11ea-96bf-43376468ab08.png)
 
-* 하단에 있는 js의 내용:
+* 하단에 있는 js의 내용:  
 ![image](https://user-images.githubusercontent.com/58318174/92317285-01f7ae00-f03a-11ea-8578-e7280760ea4a.png)
 
 #### 최상단에 js 가 위치 한 이유
@@ -46,12 +46,12 @@ HTML DOM 요소가 화면에 보일때 원하는 디자인이 적용된 형태�
 # 3. 화면을 표시하기 위해 어떤 파일들이 다운로드 되는가?
 ![image](https://user-images.githubusercontent.com/58318174/92317299-176cd800-f03a-11ea-9552-67c913da6e88.png)
 
-1. Image Files (*.png, *.gif etc..) </br>
-2. JS Files (라이브러리 포함) </br>
-3. Font Files (woff) </br>
-4. 스타일 시트 </br>
-5. text/html </br>
-</br>
+1. Image Files (*.png, *.gif etc..)  
+2. JS Files (라이브러리 포함)  
+3. Font Files (woff)  
+4. 스타일 시트  
+5. text/html  
+  
 * 다운로드 된 파일 타입을 Network 탭에서 Content-Type 으로 확인 가능합니다.
 ![image](https://user-images.githubusercontent.com/58318174/92317301-19cf3200-f03a-11ea-91fc-b655d0d89b73.png)
 
@@ -78,12 +78,12 @@ response headers : 위치 또는 서버 자체에 대한 정보(이름, 버전 �
 참조> User-centric Performance Metrics | Web Fundamentals (https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics)
 
 ## Flow
-* DOM 트리 구축(Constructing the DOM Tree)</br>
-* CSSOM 트리 구축(Constructing the CSSOM Tree)</br>
-* JavaScript 실행(Running JavaScript)</br>
-* 랜더링 트리 구축(Creating the Render Tree)</br>
-* 레이아웃 생성(Generating the Layout)</br>
-* 페인팅(Painting)</br>
+* DOM 트리 구축(Constructing the DOM Tree)  
+* CSSOM 트리 구축(Constructing the CSSOM Tree)  
+* JavaScript 실행(Running JavaScript)  
+* 랜더링 트리 구축(Creating the Render Tree)  
+* 레이아웃 생성(Generating the Layout)  
+* 페인팅(Painting)  
 
 ![image](https://user-images.githubusercontent.com/58318174/92317312-2d7a9880-f03a-11ea-9090-3a11939e41b1.png)
 
