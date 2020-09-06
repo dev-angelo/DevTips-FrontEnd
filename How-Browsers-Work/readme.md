@@ -58,7 +58,8 @@ HTML DOM 요소가 화면에 보일때 원하는 디자인이 적용된 형태�
 
 # 4. 특정 자원의 Request Headers 와 Response Headers의 내용을 분석.(네트워크 탭 활용)
 ## 4-1. Request
-![image](https://user-images.githubusercontent.com/58318174/92317303-1dfb4f80-f03a-11ea-9a4c-5b9779ce07a2.png)
+![image](https://user-images.githubusercontent.com/58318174/92317303-1dfb4f80-f03a-11ea-9a4c-5b9779ce07a2.png)  
+
 request headers : 페치될 리소스나 클라이언트 자체에 대한 자세한 정보를 포함하는 헤더입니다.
 
 ## 4-2. Response
